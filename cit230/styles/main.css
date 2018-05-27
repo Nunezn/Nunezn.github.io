@@ -18,6 +18,11 @@ h2 {
     border-bottom: 1px solid grey;
 }
 
+h2 {
+position: center;
+top: 5px;
+left: 150px;
+}
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
@@ -38,4 +43,8 @@ header img {
 
 footer {
     font-size: /* smaller */;
+}
+
+img {
+transform: translate(1200px)
 }
