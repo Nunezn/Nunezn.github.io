@@ -1,0 +1,49 @@
+
+
+h2 {
+    font-size: 3em;
+    color: pink;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: right;
+    border-bottom: 1px solid pink;
+}
+
+main img {
+    position: absolute;
+}
+
+main img {
+top: 20px;
+right: 20px;
+}
+
+
+body, footer, footer a {
+    text-align: center;
+    background-color: pink;
+    color: whitesmoke;
+}
+
+body{ background-color: red;
+
+color: black;}
+
+footer{ background-color: purple;
+
+color: black;}
+
+ img {
+     
+    transform: translate;
+}
+
+p { position: absolute
+right: 50px;
+}
+
+footer {
+    font-size: 3em;
+}
