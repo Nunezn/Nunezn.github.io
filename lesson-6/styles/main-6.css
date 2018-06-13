@@ -1,4 +1,5 @@
 
+
 * { box-sizing: border-box;}  
 
 
@@ -58,7 +59,7 @@ header img {margin:-40px;}
 @media (max-width: 550px){header img {margin:-35px;}}
 
 header .subheading {margin: 7px;
-           margin-left:-400px;
+           margin-left:-400x;
            margin-top: -10px;
            margin-bottom: 35px;
            color: #ffff;
@@ -78,59 +79,13 @@ header .subheading {margin: 7px;
            font-size: 115%;
            letter-spacing: .08em}}
 
-nav {color:gainsboro; 
-    vertical-align: text-bottom;
-    margin-top: 10px ;
-    border-radius: 1em 0em 1em 1em;
-    height: 40px;
-    width: 1000px;
-    background-color: gainsboro;}
-
-@media (max-width: 600px){nav {color:#ffffff;
-    vertical-align: text-bottom;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    border-radius: 1em 0em 1em 1em;
-    height: 30px;
-    width: 400px;
-    background-color: #feb73d;
-    padding-top: 15px;}}
-
-@media (max-width: 600px) {#button{display: flex;
-        justify-content: flex-end;}}
-
-#button{display: flex;
-        justify-content: flex-end;}
-
-nav ul a{color: white; text-decoration: none;}
-
-nav ul {padding-left: 80px;
-        padding-top: 10px;
-        margin-left: 15px;
-        margin-top: -23px;
-        }
-
-nav ul li {margin: 5px; 
-           text-decoration: none;
-           font-size: 140%;
-           padding: 20px;
-           margin-top:5px;
-          display: inline;
-          }
-@media (max-width: 600px){nav ul li {display: none;}
-           }
-
-nav ul li a {color: #ffffff; text-decoration: none;}
-nav ul li.active a {color: #579aaa;}
-nav ul li a:hover {color: #000000;}
-
-
 
 main {width: 1000px;
-      margin-top: 30px;
+      margin-top: 35px;
       background-color: #484e9a;
       border-radius: 1em 1em 0em 0em;
      }
+
 
 @media (max-width: 600px){main {width: 450px;
         margin-left: 30px;
@@ -297,7 +252,6 @@ div figure img{ width: 200px;
                 }
 div figcaption{ color: white; text-align: left;}
 
-img:hover {box-shadow: 6px 5px 15px white;}
 
 
 
@@ -327,7 +281,7 @@ header, nav, main, footer {
 header {height: 100px;
        
        margin: inherit;
-       margin-bottom: -36px;
+       margin-bottom: -20px;
        background-color: #484e9a;
        border-radius: 1em 1em 0em 0em;}
 
@@ -358,7 +312,7 @@ header .subheading {margin: 4px;
            font-size: 115%;
            letter-spacing: .08em}}
 
-main {margin-top: 70px;
+main {margin-top: 74px;
       padding-bottom: 45px;
       background-color: #92a8d1;
       border-radius: 1em 1em 0em 0em;
@@ -375,7 +329,7 @@ main {margin-top: 70px;
 main h2 {font-size: 30px;
          font-style: normal;
          margin-left:34px;
-         margin-top: -35px;
+         margin-top: -28px;
          margin-bottom: 35px;
          padding-top: 30px;
         color: black;
@@ -385,16 +339,16 @@ main h2 {font-size: 30px;
 main figure { margin: 9 0 .3rem 1%; width:85%;}
 
 main figure img { width: 75%;
-                  float: left;
+                  float: center;
                   margin-right: 80px;
                  }
 
 
 section { margin: 45px;  
           margin-left: 10px;
-          margin-bottom: 120px;
+          margin-bottom: 12px;
           font-size: 110%;
-          padding-top: .3px;
+          padding-top: .1px;
           color: black;}
 
 
@@ -487,7 +441,7 @@ footer>p {}
 .forecast h3{ color: black;  
               text-decoration: none;
               font-size: 150%;
-    margin-left: -10px
+    margin-left: 15px
            }
 tr {outline: 1px  #ffffff;
     color: black;}
@@ -510,9 +464,9 @@ table{outline: 4px  black;
 article{ height: 500px;
          width: 900px;
          background-color: cadetblue;
-         margin-left: 50px;
+         margin-left: 10px;
          margin-bottom:-20px;
-         margin-top:-40px;
+         margin-top:-4px;
          padding: 20px;
          padding-left: 35px;
          padding-top: 5px;
@@ -537,12 +491,6 @@ article h3{font-weight: bold;
           text-decoration: none;}
 
 
-@media only screen and (max-width:500px) {
-	.forecast {
-		display: none;
-	}
-    nav ul { display: none; }
-    nav {display:none;}
 
 
-}
+

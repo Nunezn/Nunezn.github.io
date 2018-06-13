@@ -1,0 +1,30 @@
+nav button {
+    display: none
+}
+
+nav ul {
+    margin-left: 11%;
+}
+nav ul li a {
+    float: left;
+    border-right:  1px solid rgba(0,0,0,0.3);
+    padding: .8rem 1rem;
+}
+
+
+nav ul li {
+    border: none;
+    border-right:  1px solid rgba(0,0,0,0.3);
+    
+}
+
+h2 img {
+    width: 50%;
+    border: dashed;
+   margin: 0 0 0 2%;
+    
+}
+
+h2 main figure img {
+    width: 100%;
+}

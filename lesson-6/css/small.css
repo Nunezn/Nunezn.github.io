@@ -1,0 +1,76 @@
+html {
+    -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+
+
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+
+nav {
+    background-color: #ccc;
+    font-family: verdana; sans-serif;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    }
+
+nav ul li a {
+ 
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top:1px solid rgba(0,0,0,0.3)
+}
+
+nav ul li a:hover {
+background-color: rgba(0,0,0,0.4);
+    
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+main {
+    padding: 0;
+    min-height: 10rem;
+}
+
+main figure {
+    width: 50%;
+   
+    margin: 0 0 0 2%;
+    
+}
+
+main figure img {
+    width: 100%;
+}
+main figure.hero {
+    width: 50%;
+    margin: 0;
+    }
+main figure.hero img {
+    width: 100%;
+}
+/*----- ClearFix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}

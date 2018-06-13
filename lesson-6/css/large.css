@@ -1,0 +1,22 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    
+    nav ul li a {
+        padding: .6rem 1rem;
+        
+    }
+    
+    h3 img{
+    padding: 0;
+    min-height: 10rem;
+}
+
+    h3 figure.midpage {
+    width: 50%;
+   
+    margin: 0 0 0 2%;
+    
+}
+    
+} /*end large */
+
