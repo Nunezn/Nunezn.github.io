@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Storm Center</title>
+    
+    <meta name="description" content="Franklin City Weather Site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/main-8.css" rel="stylesheet">
+<link href="styles/medium-5.css" rel="stylesheet">
+<link href="styles/large-5.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora"  rel="stylesheet">
+    <link href="scripts/date.js" rel="stylesheet">
+    <link href="scripts/rankStorm.js" rel="stylesheet">
+    <link href="thanks.html" rel="stylesheet">
+     <link href="gallery-7.html" rel="stylesheet">
+
+
+<script type="text/javascript" src="scripts/responsiveMenu.js" defer></script>
+<script type="text/javascript" src="" async></script>
+<script type="text/javascript" src="scripts/windChill.js" async></script>
+<script type="text/javascript" src="scripts/rankStorm.js" async></script>
+<script src="scripts/date.js" type="text/javascript"></script>
+<script type="text/javascript" src="gallery-7.html" async></script>
+    <script type="text/javascript" src="scripts/" async></script>
+     <script type="text/javascript" src="gallery-7.html" async></script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Franklin City Weather</h1>
+        
+
+    </header>
+
+    <nav>
+        <button onclick="myFunction()">&#9776;</button>
+        <ul id="primaryNavigation" class="hide">
+        	<li><a href="franklin-7.html">Home</a></li>
+    	<li class="active"><a href="#">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="#">Storm Center</a></li>
+    	<li><a href="gallery-7.html">Gallery</a></li> 
+    </ul>	
+
+    </nav>
+
+    <main>
+        <h1>Storm Center</i></h1>
+        <div class="left">
+        <form action="thanks.html" name="weather" id="situation">
+            <fieldset>
+            <legend><span>Personal Information</span></legend>
+                <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                <label><span>Email:</span><input name="email" type="email" value="" placeholder="storm@gmail.com" required></label>
+                <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="2108675309" pattern="[0-9]{10}" required></label>
+                <label><span>Zip Code:</span><input name="zipcode" type="number" placeholder="zipcode" required></label>
+            </fieldset>
+            <fieldset>
+            <legend><span>Storm Information</span></legend>
+                <label><span>Storm Date:</span><input name="date" type="date"></label><br>
+                <span>Storm Type:</span>
+                <input type="text" name="stormType" list="storms">
+                <datalist id="storms">
+                    <option value="Flash Flood">
+                    <option value="Hail">  
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist><br><br>
+
+                <label for="ranking">Severity (1 to 10)</label><input type="range" id="ranking" value="5" min="1" max="10" step="1" oninput="adjustRanking(this.value)" onchange="adjustRanking(this.value)"><span id="rankingvalue"> 5</span><br><br>
+              
+
+                <span>Storm Region:</span>
+                <input type="text" name="stormRegion" list="regions" placeholder="Select Region">
+                <datalist id="regions">
+                    <option value="Franklin">
+                    <option value="Greenville">    
+                    <option value="Springfield">
+                </datalist>
+            </fieldset>               
+            <fieldset>
+                <legend><span>Are you in danger?</span></legend>
+                <label><span>Are you in danger?</span></label>
+                <input type="radio" name="UserInDanger" value="yes"> Yes<br>
+                <input type="radio" name="UserInDanger" value="maybe"> maybe<br>
+                <input type="radio" name="UserInDanger" value="nope"> No<br>    
+                <br>
+                <textarea rows="5" cols="50" name="comment" form="situation">Please provide any additional information</textarea>
+            </fieldset>
+            
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+        
+        </div>
+    </main>
+
+    <footer>
+      
+    <aside>
+      Franklin City Weather <br>
+      
+    </aside>
+    <p class="footer-bar">&copy; 2018 All Rights Reserved | Franklin City Weather |<span id="currentdate"><script>currentDate();</script></span></p>
+  </footer>
+
+</body>
+  
+</html>

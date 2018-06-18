@@ -188,12 +188,13 @@ button:-moz-focusring,
 
 fieldset {
   padding: 0.35em 0.75em 0.625em;
+    
 }
 
 
 legend {
   box-sizing: border-box; 
-  color: inherit; 
+  color: white; 
   display: table; 
   max-width: 100%; 
   padding: 0; 
