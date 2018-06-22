@@ -207,6 +207,96 @@ footer {text-align: center;
 footer aside {}
 footer>p {} 
 
+.forecast{margin-top: -60px;}
+
+.forecast h3{ color: #feb73d;  
+              text-decoration: underline;
+              font-size: 150%;
+           }
+tr {outline: 5px solid black;
+    color: black;}
+
+td{outline: 5px solid #ffffff;
+   padding: 8px;
+   color: black;
+   font-weight: bold;}
+
+table{outline: 4px solid black;
+      width: 800px;
+      margin-top: -20px;}
+
+@media (max-width: 600px) {table{outline: 4px solid black;
+      width: 200px;
+      font-size: 53%;
+      margin-top: -20px;
+      margin-left: -40px}}
+
+article{ height: 500px;
+         width: 850px;
+         background-color: #579aaa;
+         margin-left: 50px;
+         margin-bottom:-10px;
+         margin-top:-40px;
+         padding: 20px;
+         padding-left: 35px;
+         padding-top: 5px;
+  border-radius: 1em 1em 1em 1em;
+          color: black;}
+
+@media (max-width:600px) {article{ height: 670px;
+         width: 300px;
+         background-color: #579aaa;
+         margin-left: 52px;
+         margin-bottom:-10px;
+         margin-top:-40px;
+         padding: 20px;
+         padding-left: 30px;
+         padding-top: 7px;
+  border-radius: 1em 1em 1em 1em;
+          color: black;}}
+
+
+
+article h3{font-weight: bold;
+           color: black;
+          font-size: 150%;
+          text-decoration: none;} 
+
+
+@media (max-width: 600px) {.grid{
+        width: 300px;
+        display: grid; 
+        grid-template-columns: 250px;
+        }
+}
+@media (max-width: 1000px) {.grid{
+        width: 900px;
+        display: grid; 
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 200px 200px 200PX;
+  }
+        div figure img{ width: 400px;
+                height: 250px;}
+}
+
+.grid { margin: auto;
+        width: 850px;
+        display: grid; 
+        grid-template-columns: 150px 300px 300px;
+        grid-template-rows: 150px 200px;
+        grid-gap: 10px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        
+        }
+div figure img{ width: 200px;
+                height: 150px;
+                }
+div figcaption{ color: white; text-align: left;}
+
+img:hover {box-shadow: 6px 5px 15px white;}
+
+
 
 
 @media (max-width: 600px) {.grid{
