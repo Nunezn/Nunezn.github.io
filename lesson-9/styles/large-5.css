@@ -1,0 +1,29 @@
+@media only screen and (min-width: 61em) {
+  
+  
+  article p.town-article img { width: 29.333%; }
+  
+  nav li {
+        display: inline;
+         padding: 20px;
+        }
+  
+  .grid{padding-top: 30px;
+        margin-left: 40px;
+        width: 100%;
+        display: grid; 
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 200px;
+        grid-row-gap: -10px;
+        grid-column-gap: 0px;}
+  
+  img:hover {box-shadow: 6px 6px 15px black;}
+  
+  div figure img{ width: 210px;
+                    height: 200px; 
+                }
+  main{height: 1300px;
+      text-align: center;}
+    
+    
+  
