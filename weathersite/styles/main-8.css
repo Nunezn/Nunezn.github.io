@@ -376,8 +376,6 @@ main li {
     color: #39538D;
 }
 
-
-
 @media (max-width: 600px){main {width: 450px;
       margin-left: 30px;
       margin-top: 65px;

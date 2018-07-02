@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Franklin City Weather</title> 
+  <meta name="description" content="Franklin City Weather">    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  
+  <link href="styles/normalize.css" rel="stylesheet"> 
+  <link href="styles/main-7.css" rel="stylesheet">    
+  <link href="styles/medium-5.css" rel="stylesheet">  
+  <link href="styles/large-5.css" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="stormcenter.html" rel="stylesheet">   
+<script src="stormcenter.html" type="text/javascript"></script>
+   <script src="scripts/date.js" type="text/javascript"></script>
+  <script src="scripts/hamburger.js" type="text/javascript"></script> 
+</head>
+<body>
+
+  <header>
+    <img src="images/weather%20logo.png" alt="The site logo" width="150" height="150"/>
+      
+    <h1>Franklin City Weather</h1>
+    <div class="subheading">Be ready for every ocasion</div>
+  </header>
+    <br>
+  <nav>
+       <div id="button">
+        <button onclick="toggleNavMenu()">&#9776;</button>
+       </div>
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+    	<li ><a href="franklin-7.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li class=""><a href="stormcenter.html">Storm Center</a></li>
+    	<li class="active"><a href="gallery-7.html">Gallery</a></li>
+    </ul>		  
+  </nav>
+      
+  <main>
+<div class="grid">
+      <figure><img src="images/sunny.jpeg"> 
+    <figcaption>Sunny!</figcaption>
+      
+  </figure>
+  <figure><img src="images/cloudy.jpeg"> 
+    <figcaption>Cloudy</figcaption>
+      
+  </figure>
+      <figure><img src="images/foggy.jpeg"> 
+    <figcaption>Foggy</figcaption>
+      
+  </figure><figure><img src="images/snow.jpeg"> 
+    <figcaption>Snowy</figcaption>
+      
+  </figure>
+      
+    <figure><img src="images/rainy.jpeg"> 
+    <figcaption>Rainy!</figcaption>
+      
+    </figure>
+    
+    <figure><img src="images/storm.jpeg"> 
+    <figcaption>Storm</figcaption>
+      
+  </figure>
+      </div>   
+  </main>
+      
+  <footer>
+      
+    <aside>
+      Franklin City Weather <br>
+      
+    </aside>
+    <p class="footer-bar">&copy; 2018 All Rights Reserved | Franklin City Weather |<span id="currentdate"><script>currentDate();</script></span></p>
+   
+  </footer>
+ 
+  
+  
+    
+</body>
+</html>

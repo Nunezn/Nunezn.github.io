@@ -41,7 +41,7 @@ header{ height: 100px;
 
 
 header h1 {margin: 7px;
-           margin-left:50px;
+           margin-left:-10px;
            margin-top: -30px;
            margin-bottom: 6px;
            color: #ffffff;
@@ -115,6 +115,13 @@ nav ul {padding-left: 30px;
         margin-lef: 15px;
         margin-top: -23px;
         }
+
+    nav ul {margin-left: 2%;}
+
+
+
+
+
 
 nav ul li {margin: -12px; 
            text-decoration: none;
@@ -213,15 +220,10 @@ footer>p {}
               text-decoration: underline;
               font-size: 150%;
            }
-tr {outline: 5px solid black;
-    color: black;}
 
-td{outline: 5px solid #ffffff;
-   padding: 8px;
-   color: black;
-   font-weight: bold;}
 
-table{outline: 4px solid black;
+
+table{outline: 4px blac;
       width: 800px;
       margin-top: -20px;}
 
@@ -297,7 +299,9 @@ div figcaption{ color: white; text-align: left;}
 img:hover {box-shadow: 6px 5px 15px white;}
 
 
-
+.nav div {
+    margin-left: 10px;
+}
 
 @media (max-width: 600px) {.grid{
         width: 300px;
@@ -369,14 +373,12 @@ main {margin-top: 70px;
       border-radius: 1em 1em 0em 0em;
      }
 main li {
-    list-style-type: square;
-    line-height: 160%;
-    margin-left: 20px;
-    font-size: 1.2rem;
-    color: #39538D;
+    list-style-type: ;
+    line-height: 200%;
+    margin-left: -10px;
+    font-size: 1.3rem;
+    color: black;
 }
-
-
 
 @media (max-width: 600px){main {width: 450px;
       margin-left: 30px;

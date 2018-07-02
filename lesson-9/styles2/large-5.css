@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1024px) {
+    
+nav button{display: none;}    
+nav ul.hide{display: block;}
+
+nav ul {
+     margin-left: %;
+     border-left: 1px solid rgba(,0,0,0.3);
+    }
+    
+nav ul li {
+    flex-basis: auto; 
+    -ms-flex:auto;
+    -ms-flex: 0 0 auto;
+    }
+    
+nav ul li a {
+    padding: .5rem 1rem;
+    border-right: 1px solid rgba(0,0,0,0.4);
+    border-bottom: none;
+}
+
