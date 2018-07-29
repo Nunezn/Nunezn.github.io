@@ -1,0 +1,177 @@
+
+
+* {
+    font-family:sans-serif;
+    margin:0px;
+    
+}
+
+html,body {
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+
+.container {
+    position:relative;
+    width:960px;
+    height:930px;
+    margin:auto;
+    background:rgba(255,255,255,0.5);
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.45);
+}
+
+img {
+    position:relative;
+    width:960px;
+    height:100px;
+    
+ 
+    margin-top: -3%
+}
+
+
+
+nav {
+    position:relative;
+    width:710px;
+    height:100px;
+    float:left;
+    background:#4F5B4F;
+    font-family:  serif;
+}
+
+nav > .navigation {
+    position:relative;
+    top:35px;
+    left:20px;
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.navigation li {
+    width:100px;
+    text-align:center;
+    padding:6px;
+    font-size:15px;
+    float:left;
+}
+
+.navigation a {
+    color:white;
+    text-decoration:none;
+    font-family: 'Cinzel', sans-serif;
+    text-shadow:0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.content {
+    position:relative;
+    height:840px;
+}
+
+
+
+/*----- CONTACT INFORMATION ------*/
+form#storm{
+    margin: 1em 3%;
+    
+
+}
+
+fieldset{
+
+    background-color: whitesmoke;
+    border-radius: .8em;
+    margin: 1.5em 0;
+    
+    
+  
+
+
+}
+
+legend {
+
+    margin-left: 8%;
+    padding: .5em;
+    background-color: whitesmoke;
+    color:black;
+    border: #917a56 solid 1px;
+    border-radius: .4em;
+
+}
+
+label {
+
+    display: block;
+    margin: .6em;
+
+}
+
+label span {
+
+    display: block;
+    font-size: 1em;
+    padding-bottom: .3em;
+    padding-top: .9em;
+    color:black;
+}
+
+
+
+input.submitb {
+    -webkit-appearance: none; color:moccasin;
+    color:black;
+    border-radius: 7px;
+    border: solid 1px #111;
+    width: 50%;
+    margin: .5em o;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    padding: .6em;
+    background color:darkkhaki;
+    box-shadow: 4px 4px 10px #668;
+    margin-left: 30%
+
+
+}
+
+input: required{
+    background-color: firebrick;
+    background-position: 4px -161px;
+
+}
+
+
+/*----- END CONTACT INFORMATION ------*/
+
+
+
+footer {
+    position:relative;
+    height:50px;
+    background:#4F5B4F;
+    border-top: 2px solid rgb(130, 196, 247);
+
+}
+
+
+footer h5 {
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    font-family:  serif;
+    font-size: 15px;
+    color: white;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: normal;
+    color:inherit;
+}
+
