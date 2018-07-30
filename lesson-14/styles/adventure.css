@@ -10,9 +10,6 @@ html,body {
     padding:0px;
 }
 
-body {
-    background:url('../images/blue_hills.jpg');
-}
 
 .container {
     position:relative;
@@ -84,7 +81,6 @@ nav > .navigation {
     left:20px;
     width:600px;
     height:250px;
-    background:url('../img/head_image.jpg');
     border-radius:5px;
 }
 
@@ -194,7 +190,7 @@ th {
     color:white;
 }
 
-tfoot {background-color: green;}
+
 
 tbody thead {background-color:#7fb9c2; }
 
@@ -204,7 +200,7 @@ tbody thead {background-color:#7fb9c2; }
 
 tfoot tr td { background-color: #7fb9c2; font-size: .7rem;}
 /*------------ END TABLE -----------------*/
-@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
 /*------------- GALLERY SMALL ------------------*/
 .grid1{
     display: grid;

@@ -33,7 +33,7 @@ h1 {
 
 figcaption,
 figure,
-main { /* 1 */
+main { 
     display: block;
 }
 
@@ -53,7 +53,7 @@ hr {
 
 
 pre {
-    font-family: monospace, monospace; 
+     font-family: 'Work Sans', sans-serif;
     font-size: 1em; 
 }
 
@@ -92,7 +92,7 @@ strong {
 code,
 kbd,
 samp {
-    font-family: monospace, monospace; 
+     font-family: 'Work Sans', sans-serif;
     font-size: 1em; 
 }
 

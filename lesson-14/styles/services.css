@@ -43,14 +43,6 @@ nav {
     font-family: 'Cinzel', serif;
 }
 
-nav > .navigation {
-    position:relative;
-    top:350px;
-    left:20px;
-    margin:0px;
-    padding:0px;
-    list-style:none;
-}
 
 .navigation li {
     width:100px;
@@ -104,13 +96,13 @@ nav > .navigation {
 }
 
 .contentBoxes h2 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'sans-serif;
     font-size:18px;
     line-height: 25px;
 }
 
 .contentBoxes p {
-    font-family: 'Nunito', sans-serif;
+    font-family: sans-serif;
     text-align:justify;
     font-weight:normal;
     font-size: 13px;
@@ -190,7 +182,7 @@ nav > .navigation {
     list-style:square;
     font-size: 12px;
     line-height: 18px;
-    font-family: 'Nunito', sans-serif;
+    font-family: sans-serif;
     color:rgba(0,0,0,0.8);
 }
 
@@ -214,7 +206,7 @@ nav > .navigation {
     border: none;
     border-radius: 2px;
     background: rgba(132, 219, 186, 0.41);
-    font-family: 'Nunito', sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
 }
 
@@ -232,7 +224,7 @@ nav > .navigation {
     width: 960px;
     font-size: 34px;
     font-weight: 100;
-    font-family: 'Nunito', sans-serif;
+    font-family:sans-serif;
 }
 
 

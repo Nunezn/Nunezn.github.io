@@ -1,13 +1,20 @@
 
+
 * {
     font-family:sans-serif;
     margin:none;
+}
+
+{
+    font-family: 'Work Sans', sans-serif;
+    
 }
 
 html,body {
     height:100%;
     margin:0px;
     padding:0px;
+    
 }
 
 
@@ -34,7 +41,7 @@ nav {
     height:100px;
     float:left;
     background:green;
-    font-family: 'Cinzel', serif;
+     font-family: 'Work Sans', sans-serif;
 }
 
 nav > .navigation {

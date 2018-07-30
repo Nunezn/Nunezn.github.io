@@ -1,7 +1,8 @@
 
 
 * {
-    font-family:sans-serif;
+     font-family: 'Work Sans', sans-serif;
+    font-family: 'Merienda', cursive;
     margin:0px;
 }
 
@@ -37,7 +38,7 @@ nav {
     height:100px;
     float:left;
     background:#4F5B4F;
-    font-family:  serif;
+     font-family: 'Work Sans', sans-serif;
 }
 
 nav > .navigation {
@@ -55,6 +56,7 @@ nav > .navigation {
     padding:6px;
     font-size:15px;
     float:left;
+     font-family: 'Work Sans', sans-serif;
 }
 
 .navigation a {
